@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Detail from "@/components/Detail";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Service />
       <Detail />
       <Testimonial />
+      <Contact />
     </main>
   );
 }
