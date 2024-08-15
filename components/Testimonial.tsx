@@ -73,12 +73,12 @@ const Testimonial = () => {
         </span>
       </div>
       <div className="relative flex py-10 lg:py-18 w-full flex-col items-center justify-center overflow-hidden rounded-lg">
-        <Marquee pauseOnHover className="[--duration:50s]">
+        <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:50s]">
+        <Marquee reverse pauseOnHover className="[--duration:20s]">
           {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
