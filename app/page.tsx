@@ -7,7 +7,7 @@ import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
-    <main className="flex flex-col overflow-x-hidden p-5 md:px-10 lg:px-20">
+    <main className="flex flex-col overflow-x-hidden pt-5 md:px-10 lg:px-20">
       <Navbar />
       <Hero />
       <Service />
